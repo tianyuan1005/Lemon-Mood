@@ -1,2 +1,9 @@
-# ty_code_lemon_mood
- ty_code_lemon_mood
+Server:
+npm install
+node server.js
+
+
+Client:
+npm install
+npm run dev
+
