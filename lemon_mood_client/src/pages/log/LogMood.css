@@ -1,0 +1,89 @@
+.el-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mds {
+  margin: 20px auto 10px auto;
+}
+
+.block {
+  margin: 5px auto 50px auto;
+  width: 800px;
+  min-height: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: 1px solid #aaaaaa;
+}
+
+.t {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tt {
+  font-weight: bold;
+  width: 800px;
+  text-align: left;
+}
+
+.b {
+  margin-left: 25px;
+  min-height: 25px;
+}
+
+.slide_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.el-slider {
+  margin: 0;
+  width: 500px;
+  height: 50px;
+}
+
+.sleep_hours {
+  width: 120px;
+  font-weight: bold;
+}
+
+.block_input {
+  margin: 5px auto 50px auto;
+  width: 800px;
+  min-height: 30px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #aaaaaa;
+}
+
+.el-upload {
+  display: flex;
+}
+
+.block_input_photo {
+  margin: 5px auto 50px auto;
+  width: 800px;
+  min-height: 30px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #aaaaaa;
+}
+
+.photo_input {
+  width: 800px !important;
+}
+
+.submit_content {
+  width: 800px;
+  padding-bottom: 100px;
+}

@@ -1,0 +1,230 @@
+.el-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.mds {
+  margin: 20px auto 10px auto;
+}
+.block{
+  margin: 20px auto 20px auto;
+  width: 900px;
+  min-height: 100px;
+}
+.chart_histogram{
+  margin-top: -20px;
+  margin-bottom: -30px;
+  height: 400px;
+  margin-left: 28px;
+}
+.chart_line{
+  margin-top: -20px;
+  margin-bottom: -30px;
+  height: 400px;
+  margin-left: 50px;
+}
+.chart_z{
+  margin-top: -370px;
+  height: 370px;
+  width: 900px;
+  margin-bottom: -30px;
+  display: flex;
+  flex-direction: column;
+}
+.chart_z_img{
+  width: 50px;
+  height: 40px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+.top_layout {
+  margin: 10px auto 20px auto;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top_layout_item {
+  width: 425px;
+  min-height: 250px;
+}
+.log_no_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.log_no_img {
+  width: 80px;
+  height: 50px;
+}
+
+.log_no_txt {
+  width: 300px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.log_no_bottom {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.log_no_btn {
+  font-weight: bold;
+}
+
+.log_container {
+  margin-top: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log_block {
+  margin-top: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 20px;
+}
+
+.log_mood {
+  width: 70px;
+  height: 70px;
+}
+
+.log_mood_str {
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 70px;
+  line-height: 60px;
+}
+
+.log_create_at_str {
+  font-size: 14px;
+  width: 48px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: -85px;
+  margin-top: 48px;
+}
+
+.log_div_doing {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.log_doing_img {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.log_doing_str {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.often_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.often_select {
+  margin-top: 15px;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.often_select_img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: -40px;
+}
+
+.often_block {
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.often_div_doing {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.often_doing_img {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.often_doing_str {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w_01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.w_weather_img {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w_weather {
+  margin-top: -20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.w_city {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #A0A0A0;
+}
+
+.w_02 {
+  margin-left: 20px;
+  font-size: 50px;
+}

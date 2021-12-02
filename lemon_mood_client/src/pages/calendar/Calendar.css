@@ -1,0 +1,150 @@
+.el-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mms {
+  margin: 20px auto 10px auto;
+}
+
+.calendar_title {
+  margin-top: 20px;
+  background-color: #E1E0E0;
+  width: 799px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.week {
+  margin-top: 1px;
+  min-width: 114px;
+  min-height: 50px;
+  background-color: #E1E0E0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.calendar {
+  background-color: #E1E0E0;
+  width: 799px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 1px;
+}
+
+.day_num {
+  margin-top: 1px;
+  margin-left: 1px;
+  min-width: 113px;
+  min-height: 113px;
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+.day_inside {
+  position: absolute;
+  min-width: 113px;
+  min-height: 113px;
+}
+
+.day {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.mood{
+  width: 50px;
+  margin-left: 15px;
+  height: 50px;
+  margin-top: -15px;
+}
+
+.bt_day {
+  position: absolute;
+  min-width: 113px;
+  min-height: 113px;
+}
+
+.dia_container {
+  margin-top: -20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dia_block {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 20px;
+}
+
+.dia_mood {
+  width: 70px;
+  height: 70px;
+}
+
+.dia_mood_str {
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 70px;
+  line-height: 60px;
+}
+
+.dia_create_at_str {
+  font-size: 14px;
+  width: 48px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: -105px;
+  margin-top: 48px;
+}
+
+.dia_sleep_str {
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+}
+
+.dia_div_doing {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dia_doing_img {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.dia_doing_str {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+.dia_note_str {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: start;
+  margin-top: 15px;
+}
+.dia_photo {
+  margin-top: 15px;
+  width: 300px;
+}
+

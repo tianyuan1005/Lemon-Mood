@@ -1,0 +1,41 @@
+.el-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.title {
+  margin: 50px auto 10px auto;
+  width: 800px;
+  font-size: 24px;
+  display: flex;
+  justify-content: start;
+  font-weight: bold;
+}
+
+.block {
+  margin: 5px auto 5px auto;
+  width: 800px;
+  min-height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.block_input {
+  width: 600px;
+}
+
+.block_input_head {
+  width: 500px;
+}
+
+.el-upload {
+  display: flex;
+}
+
+.block_button {
+  margin-left: 20px;
+}
+

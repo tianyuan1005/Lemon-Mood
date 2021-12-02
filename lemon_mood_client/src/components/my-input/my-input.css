@@ -1,0 +1,408 @@
+.my-el-textarea {
+  position: relative;
+  display: inline-block;
+  /*width: 100%;*/
+  vertical-align: bottom;
+  font-size: 18px;
+}
+
+.my-el-textarea__inner {
+  font-family:"PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  display: block;
+  resize: vertical;
+  padding: 5px 10px;
+  line-height: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: inherit;
+  /*color: #606266;*/
+  /*background-color: #FFF;*/
+  background-image: none;
+  border: 0px solid #DCDFE6;
+  border-radius: 10px;
+  -webkit-transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+  transition: border-color .2s cubic-bezier(.645, .045, .355, 1)
+}
+
+.my-el-textarea__inner::-webkit-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea__inner:-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea__inner::-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea__inner::placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea__inner:hover {
+  border-color: #C0C4CC
+}
+
+.my-el-textarea__inner:focus {
+  outline: 0;
+  border-color: #409EFF
+}
+
+.my-el-textarea .my-el-input__count {
+  color: #909399;
+  /*background: #FFF;*/
+  position: absolute;
+  font-size: 12px;
+  bottom: 5px;
+  right: 10px
+}
+
+.my-el-textarea.is-disabled .my-el-textarea__inner {
+  /*background-color: #F5F7FA;*/
+  border-color: #E4E7ED;
+  color: #C0C4CC;
+  cursor: not-allowed
+}
+
+.my-el-textarea.is-disabled .my-el-textarea__inner::-webkit-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea.is-disabled .my-el-textarea__inner:-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea.is-disabled .my-el-textarea__inner::-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea.is-disabled .my-el-textarea__inner::placeholder {
+  color: #C0C4CC
+}
+
+.my-el-textarea.is-exceed .my-el-textarea__inner {
+  border-color: #F56C6C
+}
+
+.my-el-textarea.is-exceed .my-el-input__count {
+  color: #F56C6C
+}
+
+.my-el-input {
+  position: relative;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%
+}
+
+.my-el-input::-webkit-scrollbar {
+  z-index: 11;
+  width: 6px
+}
+
+.my-el-input::-webkit-scrollbar:horizontal {
+  height: 6px
+}
+
+.my-el-input::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  width: 6px;
+  /*background: #b4bccc*/
+}
+
+.my-el-input::-webkit-scrollbar-corner {
+  /*background: #fff*/
+}
+
+.my-el-input::-webkit-scrollbar-track {
+  /*background: #fff*/
+}
+
+.my-el-input::-webkit-scrollbar-track-piece {
+  /*background: #fff;*/
+  width: 6px
+}
+
+.my-el-input .my-el-input__clear {
+  color: #C0C4CC;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: color .2s cubic-bezier(.645, .045, .355, 1);
+  transition: color .2s cubic-bezier(.645, .045, .355, 1)
+}
+
+.my-el-input .my-el-input__clear:hover {
+  color: #909399
+}
+
+.my-el-input .my-el-input__count {
+  height: 100%;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #909399;
+  font-size: 12px
+}
+
+.my-el-input .my-el-input__count .my-el-input__count-inner {
+  /*background: #FFF;*/
+  line-height: initial;
+  display: inline-block;
+  padding: 0 5px
+}
+
+.my-el-input__inner {
+  -webkit-appearance: none;
+  /*background-color: #FFF;*/
+  background-image: none;
+  border-radius: 10px;
+  border: 0px solid #DCDFE6;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #606266;
+  display: inline-block;
+  font-size: inherit;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  padding: 0 15px;
+  -webkit-transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+  transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+  width: 100%;
+  text-align: center;
+}
+
+.my-el-input__prefix, .my-el-input__suffix {
+  position: absolute;
+  top: 0;
+  -webkit-transition: all .3s;
+  text-align: center;
+  height: 100%;
+  color: #C0C4CC
+}
+
+.my-el-input__inner::-ms-reveal {
+  display: none
+}
+
+.my-el-input__inner::-webkit-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input__inner:-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input__inner::-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input__inner::placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input__inner:hover {
+  border-color: #C0C4CC
+}
+
+.my-el-input.is-active .my-el-input__inner, .my-el-input__inner:focus {
+  border-color: #409EFF;
+  outline: 0
+}
+
+.my-el-input__suffix {
+  right: 5px;
+  transition: all .3s;
+  pointer-events: none
+}
+
+.my-el-input__suffix-inner {
+  pointer-events: all
+}
+
+.my-el-input__prefix {
+  left: 5px;
+  transition: all .3s
+}
+
+.my-el-input__icon {
+  height: 100%;
+  width: 25px;
+  text-align: center;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  line-height: 40px
+}
+
+.my-el-input__icon:after {
+  content: '';
+  height: 100%;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.my-el-input__validateIcon {
+  pointer-events: none
+}
+
+.my-el-input.is-disabled .my-el-input__inner {
+  /*background-color: #F5F7FA;*/
+  border-color: #E4E7ED;
+  color: #C0C4CC;
+  cursor: not-allowed
+}
+
+.my-el-input.is-disabled .my-el-input__inner::-webkit-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input.is-disabled .my-el-input__inner:-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input.is-disabled .my-el-input__inner::-ms-input-placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input.is-disabled .my-el-input__inner::placeholder {
+  color: #C0C4CC
+}
+
+.my-el-input.is-disabled .my-el-input__icon {
+  cursor: not-allowed
+}
+
+.my-el-input.is-exceed .my-el-input__inner {
+  border-color: #F56C6C
+}
+
+.my-el-input.is-exceed .my-el-input__suffix .my-el-input__count {
+  color: #F56C6C
+}
+
+.my-el-input--suffix .my-el-input__inner {
+  padding-right: 30px
+}
+
+.my-el-input--prefix .my-el-input__inner {
+  padding-left: 30px
+}
+
+.my-el-input--medium {
+  font-size: 14px
+}
+
+.my-el-input--medium .my-el-input__inner {
+  height: 36px;
+  line-height: 36px
+}
+
+.my-el-input--medium .my-el-input__icon {
+  line-height: 36px
+}
+
+.my-el-input--small {
+  font-size: 13px
+}
+
+.my-el-input--small .my-el-input__inner {
+  height: 32px;
+  line-height: 32px
+}
+
+.my-el-input--small .my-el-input__icon {
+  line-height: 32px
+}
+
+.my-el-input--mini {
+  font-size: 12px
+}
+
+.my-el-input--mini .my-el-input__inner {
+  height: 28px;
+  line-height: 28px
+}
+
+.my-el-input--mini .my-el-input__icon {
+  line-height: 28px
+}
+
+.my-el-input-group {
+  line-height: normal;
+  display: inline-table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0
+}
+
+.my-el-input-group > .my-el-input__inner {
+  vertical-align: middle;
+  display: table-cell
+}
+
+.my-el-input-group__append, .my-el-input-group__prepend {
+  /*background-color: #F5F7FA;*/
+  color: #909399;
+  vertical-align: middle;
+  display: table-cell;
+  position: relative;
+  border: 1px solid #DCDFE6;
+  border-radius: 4px;
+  padding: 0 20px;
+  width: 1px;
+  white-space: nowrap
+}
+
+.my-el-input-group--prepend .my-el-input__inner, .my-el-input-group__append {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0
+}
+
+.my-el-input-group--append .my-el-input__inner, .my-el-input-group__prepend {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+.my-el-input-group__append:focus, .my-el-input-group__prepend:focus {
+  outline: 0
+}
+
+.my-el-input-group__append .my-el-button, .my-el-input-group__append .my-el-select, .my-el-input-group__prepend .my-el-button, .my-el-input-group__prepend .my-el-select {
+  display: inline-block;
+  margin: -10px -20px
+}
+
+.my-el-input-group__append button.my-el-button, .my-el-input-group__append div.my-el-select .my-el-input__inner, .my-el-input-group__append div.my-el-select:hover .my-el-input__inner, .my-el-input-group__prepend button.my-el-button, .my-el-input-group__prepend div.my-el-select .my-el-input__inner, .my-el-input-group__prepend div.my-el-select:hover .my-el-input__inner {
+  border-color: transparent;
+  background-color: transparent;
+  color: inherit;
+  border-top: 0;
+  border-bottom: 0
+}
+
+.my-el-input-group__append .my-el-button, .my-el-input-group__append .my-el-input, .my-el-input-group__prepend .my-el-button, .my-el-input-group__prepend .my-el-input {
+  font-size: inherit
+}
+
+.my-el-input-group__prepend {
+  border-right: 0
+}
+
+.my-el-input-group__append {
+  border-left: 0
+}
+
+.my-el-input-group--append .my-el-select .my-el-input.is-focus .my-el-input__inner, .my-el-input-group--prepend .my-el-select .my-el-input.is-focus .my-el-input__inner {
+  border-color: transparent
+}
+
+.my-el-input__inner::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0
+}
